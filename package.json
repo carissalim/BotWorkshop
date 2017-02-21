@@ -1,0 +1,21 @@
+{
+  "name": "hellobot",
+  "version": "1.0.0",
+  "description": "this bot says hello",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+   "keywords": [
+    "news",
+    "bot"
+  ],
+  "author": "Alyssa Ong with edits by Micheleen Harris",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.6.0",
+    "request-promise": "^4.1.1",
+    "restify": "^4.3.0"
+  }
+}
